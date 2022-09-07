@@ -6,7 +6,7 @@ FIRE = pygame.USEREVENT + 1
 
 
 class GameSprite(pygame.sprite.Sprite):
-    '''描述游戏中元素的类'''
+    """描述游戏中元素的类"""
 
     def __init__(self, image_name, speed=1):
         super().__init__()
@@ -21,7 +21,7 @@ class GameSprite(pygame.sprite.Sprite):
 
 
 class BackGound(GameSprite):
-    '''背景图片类'''
+    """背景图片类"""
 
     def __init__(self, image_name, alt=False):
         super().__init__(image_name)

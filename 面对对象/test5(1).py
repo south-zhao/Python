@@ -118,11 +118,6 @@ obj.tall_info()
 # cls 和 self都是一种命名习惯习惯, cls作为第一个参数来表示类本身. 在类方法中用到
 """
 
-
-
-
-import settings
-
 # print(settings.name)
 # print(settings.age)
 # print(settings.sex)
@@ -159,7 +154,7 @@ import settings
 
 # 给每一个人生成一个id号
 import time
-import hashlib
+
 
 class People:
     def __init__(self, name, age, sex):

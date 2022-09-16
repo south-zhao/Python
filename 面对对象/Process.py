@@ -6,9 +6,6 @@
 # -*- coding: utf-8 -*-
 # 进程的相关内容
 # import sys
-import time
-import random
-from multiprocessing import Process
 # import 乘法表
 
 

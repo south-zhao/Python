@@ -238,8 +238,6 @@ with open('1.txt', 'r', encoding='utf-8') as f:
 # json.loads(json数据)
 # 将json数据转成Python的数据，有返回值
 
-import json
-
 data = {'name': '老杨'}
 # print(type(data))
 # # res = json.dumps(data)

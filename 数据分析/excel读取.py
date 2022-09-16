@@ -1,4 +1,4 @@
-# C:\Bin\envirment\python
+# C:\Bin\environment\python
 # -*- coding: utf-8 -*-
 # @Author  : south(南风)
 # @Time    : 2022/9/10 13:46

@@ -1,5 +1,3 @@
-from pathlib import Path
-
 # print(Path.cwd())  # 输出当前文件夹的位置
 # print(Path.home())  # 获取home目录
 # print(Path.stat(Path.cwd()))  # 获取当前文件的信息

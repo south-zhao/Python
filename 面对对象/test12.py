@@ -1,6 +1,3 @@
-import time
-from multiprocessing import Process, Queue
-
 # maxsize设置队列中数据的上限，小于或者等于0 则不限制
 # 容器中大于这个数则阻塞，直到队列中的数据被消除
 # q = Queue(maxsize=0)  # 创建队列

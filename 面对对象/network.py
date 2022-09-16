@@ -6,17 +6,16 @@
 # -*- coding: utf-8 -*-
 # 对网络编程的总结
 from socket import *
-
 # udp
-# socket1 = socket(AF_INET, SOCK_DGRAM)
-#
-# send_addr = ("192.168.10.5", 8888)
-#
-# send_data = input("你要发送的内容:").strip().encode('gbk')
-#
-# socket1.sendto(send_data, send_addr)
-#
-# socket1.close()
+socket1 = socket(AF_INET, SOCK_DGRAM)
+
+send_addr = ("10.139.117.188", 8080)
+
+send_data = input("你要发送的内容:").strip().encode('gbk')
+
+socket1.sendto(send_data, send_addr)
+
+socket1.close()
 
 # tcp服务端
 

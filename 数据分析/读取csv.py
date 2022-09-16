@@ -6,21 +6,18 @@
 # @Software: PyCharm
 # @Describe: 读取csv数据
 import csv
-import random
 
-from matplotlib import pyplot as plt
-
-with open('grade.csv', 'r', encoding="utf-8") as f:
-    reader = csv.reader(f)
-    # print(type(reader))
-    list = []
-    for row in reader:
-        name = row[1]
-        math = row[4]
-        china = row[5]
-        English = row[6]
-        list1 = [name, math, china, English]
-        list.append(list1)
+# with open('grade.csv', 'r', encoding="utf-8") as f:
+#     reader = csv.reader(f)
+#     print(type(reader))
+# list = []
+# for row in reader:
+#     name = row[1]
+#     math = row[4]
+#     china = row[5]
+#     English = row[6]
+#     list1 = [name, math, china, English]
+#     list.append(list1)
 
 # def poop(a):
 #     a = a[1::]

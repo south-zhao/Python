@@ -1,5 +1,6 @@
-import pandas as pd
 import csv
+
+import pandas as pd
 
 df = pd.read_excel('1.xlsx', sheet_name=0)
 print(df.c1)
@@ -24,7 +25,6 @@ with open('tieba.csv', 'w', encoding='utf-8') as f:
     writer.writerows(result_list)
 
 import xlrd
-import xlwt
 
 workbook = xlrd.open_workbook('1.xlsx')
 # sheet_names()获取文件当中所有sheet名字

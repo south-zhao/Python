@@ -2,10 +2,6 @@
 线程：
 
 """
-from threading import Thread
-from multiprocessing import Process
-import time
-import os
 
 #
 # def func(i):

@@ -1,8 +1,5 @@
 import time
-import random
-import os
-import json
-from multiprocessing import Process, Lock, Semaphore, Event
+from multiprocessing import Process, Event
 
 
 # def func(args):

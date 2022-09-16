@@ -7,7 +7,6 @@
 # @Describe: 利用matplotlib进行数据分析
 from matplotlib import pyplot as plt
 from matplotlib.font_manager import FontProperties
-import random
 
 font = FontProperties(fname=r"C:\Windows\Fonts\simhei.ttf", size=10)
 

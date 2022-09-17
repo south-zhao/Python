@@ -6,6 +6,8 @@
 # Describe: 自动生成大量随机信息
 # -*- coding: utf-8 -*-
 from random import choice, randint
+from pypinyin import lazy_pinyin, pinyin
+import jieba
 import string
 import codecs
 
@@ -68,13 +70,18 @@ def output(filename):
             print()
 
 
-if __name__ == '__main__':
-    filename = 'information.txt'
-    main(filename)
-    output(filename)
+# if __name__ == '__main__':
+#     filename = 'information.txt'
+#     main(filename)
+#     output(filename)
 
 
+# x = '分词的准确度直接影响了后续文本处理和挖掘算法的最终效果'
+# res = jieba.lcut(x)
+# print(res)
 
-
+# res1 = lazy_pinyin('赵鑫杰')
+res1 = lazy_pinyin('赵鑫杰', 1)
+print(res1)
 
 

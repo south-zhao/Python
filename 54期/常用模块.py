@@ -82,6 +82,7 @@
 # pip  install  你要下载的第三方模块的名字 -i  https://pypi.douban.com/simple
 # 例如：
 # pip  install  requests -i  https://pypi.douban.com/simple
+# pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
 # 还有一种永久换源的方式
 # windows：
 # 1. 文件管理器文件路径地址栏敲：%APPDATA% 回车，

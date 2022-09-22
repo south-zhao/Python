@@ -39,12 +39,9 @@ side = 6
 colors = ['red', 'yellow', 'green', 'blue', 'purple', 'orange']
 
 for i in range(360):
-    turtle.pencolor(colors[i%side])
-    turtle.forward(i*3/side+i)
-    turtle.left(360/side + 1)
-    turtle.width(i*side/200)
+    turtle.pencolor(colors[i % side])
+    turtle.forward(i * 3 / side + i)
+    turtle.left(360 / side + 1)
+    turtle.width(i * side / 200)
 
 print("end")
-
-
-

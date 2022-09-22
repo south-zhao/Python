@@ -15,21 +15,3 @@ for i in range(100):
     gui.SendMessage(handle, con.WM_PASTE)
     # 模拟按下enter，发信息
     gui.SendMessage(handle, con.WM_KEYDOWN, con.VK_RETURN)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

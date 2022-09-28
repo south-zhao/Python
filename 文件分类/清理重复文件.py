@@ -15,4 +15,4 @@ for m in file_list:
     for n in file_list:
         if m != n and m.exists() and n.exists():
             if cmp(m, n):
-                n.replace(des_folder / n.name)#n.unlike删除
+                n.replace(des_folder / n.name)  #n.unlike删除

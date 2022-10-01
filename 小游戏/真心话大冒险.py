@@ -16,11 +16,11 @@ while iscontinue == "Y" or iscontinue == "":
     j = 1
     while i <= n:
         a = np.random.randint(0, 100, n)
-        i += 1                     #每个人产生一个随机数字
+        i += 1                     # 每个人产生一个随机数字
     for i in a:
         print("第", j, "位", ":", i)
         j += 1
-    b = np.min(a)     #找出最小的数字
+    b = np.min(a)     # 找出最小的数字
     print("最小的数字：", b)
     print("第", np.argmin(a) + 1, "位")
     c = int(input("请选择真心话（1）/大冒险（2）："))

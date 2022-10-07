@@ -2,6 +2,9 @@ import requests
 from jsonpath import jsonpath
 import csv
 import re
+
+from matplotlib import pyplot as plt
+
 '''
 微博评论移动端：https://m.weibo.cn/detail/4813628149072458
 '''
@@ -48,6 +51,9 @@ class Weibo():
     def parse_data(self, data):
         x_time = jsonpath(data, '$..x')[0]
         s_data = jsonpath(data, '$..s')[0]
+        # plt.plot(x_time, s_data)
+        # # plt.savefig("1.png")
+        # plt.show()
         # 开启一个文件
         f = open('weibo.csv', 'w', newline='', encoding='gbk')
         csv_w = csv.writer(f)  # CSV文件对象

@@ -142,11 +142,11 @@ part2   违背了上面的说法   可能会出现在刁钻的面试题
 运行Python的代码和pycharm有关系吗？
 
 '''
-a = 257
-b = 257
-print(id(a))
-print(id(b))
-print(a is b) # 不一样   为什么不一样？
+# a = 257
+# b = 257
+# print(id(a))
+# print(id(b))
+# print(a is b) # 不一样   为什么不一样？
 # 按道理来说 a和b ID应该一样吗？ a is b 成立还是不成立？
 # 酒店为例
 # 来一个客人就开间房   这两个客人的地址一样吗？   肯定不一样的
@@ -158,7 +158,10 @@ print(a is b) # 不一样   为什么不一样？
 # 2. 使用变量  使用的本质
 # 3. 变量名的命名规定和规范问题
 # 4. 注释
-
+name = "南风"
+print(id(name))
+print(type(name))
+print(name)
 
 
 

@@ -14,9 +14,9 @@ Python为了更好的操作数据，为了更好的利用内存的空间
 这些代码  同学需要去练习一遍   基础的零碎的知识点
 
 """
-# a = -1
-# print(a)
-# print(type(a))  # 查看变量a的数据类型
+a = -1
+print(a)
+print(type(a))  # 查看变量a的数据类型
 # b = -1.1
 # print(b)
 # print(type(b))
@@ -262,3 +262,13 @@ c = {11,22:33}
 # 在直播课中    肯定会有问题
 # 应该要做是的   及时看回放  针对你刚才在直播课中的问题  去回放中找答案
 # 形成自己的笔记
+a = ('python', 4)
+b = ('python',)
+c = ('python')
+print(type(a))  # 结果为
+print(type(b))
+print(type(c))
+
+
+
+

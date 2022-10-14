@@ -12,6 +12,9 @@ def print_hi(name):
 if __name__ == '__main__':
     a = input("请输入打招呼的对象:")
     print_hi(a)
+    b = [1, 3]
+    c = [3, 6]
+    print(b + c)
 
 # 访问 https://www.jetbrains.com/help/pycharm/ 获取 PyCharm 帮助
 

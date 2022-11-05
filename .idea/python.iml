@@ -4,6 +4,10 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.8" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="water" />
+    <orderEntry type="module" module-name="WaterSystem" />
     <orderEntry type="module" module-name="Django" />
+    <orderEntry type="module" module-name="mysite" />
+    <orderEntry type="module" module-name="mysite1" />
   </component>
 </module>

@@ -3,7 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../Django/.idea/Django.iml" filepath="$PROJECT_DIR$/../Django/.idea/Django.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../WaterSystem/.idea/WaterSystem.iml" filepath="$PROJECT_DIR$/../WaterSystem/.idea/WaterSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mysite/.idea/mysite.iml" filepath="$PROJECT_DIR$/../mysite/.idea/mysite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mysite1/.idea/mysite1.iml" filepath="$PROJECT_DIR$/../mysite1/.idea/mysite1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/python.iml" filepath="$PROJECT_DIR$/.idea/python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../water/.idea/water.iml" filepath="$PROJECT_DIR$/../water/.idea/water.iml" />
     </modules>
   </component>
 </project>

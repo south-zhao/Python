@@ -59,7 +59,7 @@ if __name__ == '__main__':
     weight = float(input("请输入你的体重(kg):"))
     height = float(input("请输入你的身高(m):"))
     b, r = getBMI(weight, height)
-    print("%.3f  %s" % (b, r))
+    print("你的BMI值为%.3f  结果为%s" % (b, r))
 
 
 

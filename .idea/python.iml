@@ -9,5 +9,9 @@
     <orderEntry type="module" module-name="Django" />
     <orderEntry type="module" module-name="mysite" />
     <orderEntry type="module" module-name="mysite1" />
+    <orderEntry type="module" module-name="check" />
+    <orderEntry type="module" module-name="one" />
+    <orderEntry type="module" module-name="djangoProject" />
+    <orderEntry type="module" module-name="data" />
   </component>
 </module>

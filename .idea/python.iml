@@ -13,5 +13,6 @@
     <orderEntry type="module" module-name="one" />
     <orderEntry type="module" module-name="djangoProject" />
     <orderEntry type="module" module-name="data" />
+    <orderEntry type="module" module-name="python源码" />
   </component>
 </module>

@@ -38,12 +38,11 @@ def use_pyttsx3():
     # print(f'语音声音：{voice}')
 
     # 语音文本
-    words = input('请输入要说的话：')
+    # words = input('请输入要说的话：')
     # 将语音文本说出来
-    # with open("1.txt", 'r', encoding='utf-8') as f:
-    #     words = f.read()
-    #     print(words)
-    engine.say(words)
+    with open("1.txt", 'r', encoding='utf-8') as f:
+        words = f.read()
+    # engine.say(words)
     engine.runAndWait()
     engine.stop()
 

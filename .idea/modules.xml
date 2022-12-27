@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/../mysite1/.idea/mysite1.iml" filepath="$PROJECT_DIR$/../mysite1/.idea/mysite1.iml" />
       <module fileurl="file://$PROJECT_DIR$/../one/.idea/one.iml" filepath="$PROJECT_DIR$/../one/.idea/one.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/python.iml" filepath="$PROJECT_DIR$/.idea/python.iml" />
+      <module fileurl="file://D:/python源码/.idea/python源码.iml" filepath="D:/python源码/.idea/python源码.iml" />
       <module fileurl="file://$PROJECT_DIR$/../water/.idea/water.iml" filepath="$PROJECT_DIR$/../water/.idea/water.iml" />
     </modules>
   </component>
